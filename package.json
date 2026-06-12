@@ -18,7 +18,7 @@
     "starlight-page-actions": "^0.6.0",
     "starlight-save-file-component": "^0.1.1",
     "starlight-sidebar-swipe": "^0.2.0",
-    "starlight-sidebar-topics": "^0.7.1",
+    "starlight-sidebar-topics": "^0.8.0",
     "starlight-ui-tweaks": "^0.2.2"
   },
   "devDependencies": {

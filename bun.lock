@@ -6,7 +6,7 @@
       "name": "wiki",
       "dependencies": {
         "@astrojs/starlight": "^0.41.3",
-        "@fontsource-variable/anuphan": "^5.2.8",
+        "@fontsource-variable/anuphan": "^5.3.0",
         "astro": "7.1.3",
         "sharp": "^0.35.3",
         "starlight-llms-txt": "^0.11.0",
@@ -176,7 +176,7 @@
 
     "@expressive-code/plugin-text-markers": ["@expressive-code/plugin-text-markers@0.44.0", "", { "dependencies": { "@expressive-code/core": "^0.44.0" } }, "sha512-0/m3A5b+lz2upyNq+wzZ1S69HRoJmyFs5LsR42lVZ9pmGRlBiSBYQpvqlji4DBj1+Riamxc0AvcCr5kuzOQeWA=="],
 
-    "@fontsource-variable/anuphan": ["@fontsource-variable/anuphan@5.2.8", "", {}, "sha512-FkrSnSrcgbpUxovuOfvbhdVZ2pk5RS2e1XxI6+Hb1IlZ/dYq1am1lrp8Y9PKSmVnie4Vq+x5eatPvEGNMRhkdA=="],
+    "@fontsource-variable/anuphan": ["@fontsource-variable/anuphan@5.3.0", "", {}, "sha512-4kR8VqHI5El8z3tvCeKB4EE23Xj/R41UpAlsez4spDCZTMHGrlp1CzE65SAu/hGVIhNcJHaTyHNdZ2yfPl/w/A=="],
 
     "@img/colour": ["@img/colour@1.1.0", "", {}, "sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ=="],
 

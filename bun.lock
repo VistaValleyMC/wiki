@@ -12,7 +12,7 @@
         "starlight-llms-txt": "^0.11.0",
         "starlight-page-actions": "^0.7.0",
         "starlight-save-file-component": "^0.1.1",
-        "starlight-sidebar-swipe": "^0.2.0",
+        "starlight-sidebar-swipe": "^0.3.2",
         "starlight-sidebar-topics": "^0.8.0",
         "starlight-ui-tweaks": "^0.2.2",
       },
@@ -966,7 +966,7 @@
 
     "starlight-save-file-component": ["starlight-save-file-component@0.1.1", "", { "peerDependencies": { "@astrojs/starlight": ">=0.32" } }, "sha512-LJMx0shXa9VkEhJOfu+4/pLlLej5FYsNrvfgUktTcLr6N+1eEJB/g30xEV/aCc+3s6sqj45Gsm0ehZ/yagEHww=="],
 
-    "starlight-sidebar-swipe": ["starlight-sidebar-swipe@0.2.0", "", { "peerDependencies": { "@astrojs/starlight": ">=0.38" } }, "sha512-+krC5fbHjKjztStsGaGgaR5KaOahlPfwb32lYKbo1kzPR9v4Li95VM0tj+2qibilhS9cBq/okWdxN74fyccmBw=="],
+    "starlight-sidebar-swipe": ["starlight-sidebar-swipe@0.3.2", "", { "peerDependencies": { "@astrojs/starlight": ">=0.41" } }, "sha512-KR1K5EDsyVehBrivY1EwiRtggYjD2QVVTyCKrr1wqPD5gDEvTPtxljs5H2hVb93BTLJIZGmpWElnhshdW9jO/Q=="],
 
     "starlight-sidebar-topics": ["starlight-sidebar-topics@0.8.0", "", { "dependencies": { "picomatch": "^4.0.3" }, "peerDependencies": { "@astrojs/starlight": ">=0.38.0" } }, "sha512-hE8+w2vNL13h6cq3UJGl05milJQ3+1BSlhaV5V4a993YzYczU6uLAj6jfUDKQ2mmgkdVWp8/UNDF4Je/rQXNQw=="],
 

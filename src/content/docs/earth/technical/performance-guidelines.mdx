@@ -14,40 +14,6 @@ There are several restrictions in place to help reduce lag and improve server pe
 To enhance your view distance even further, it is recommended to install either [Distant Horizons](https://modrinth.com/mod/distanthorizons), [Bobby](https://modrinth.com/mod/bobby) or any similarly functioning mods on your Minecraft client.
 :::
 
-## Per-Chunk Limits
-
-Players are encouraged to manage entities and blocks responsibly to prevent server lag.
-
-### Mob Caps
-
-We have implemented **mob caps** to prevent server performance degradation.
-
-* **Group A** (*animals*, *fishes*; excluding tameable mobs such as cats, wolves, and horses)
-  * Limit: **50** entities per chunk; entities above this are killed.
-* **Group B** (*monsters*; excluding zombie villagers)
-  * Limit: **30** entities per chunk; entities above this are killed.
-* **Group C** (*villagers*, *zombie villagers*, *wandering traders*)
-  * Limit: **20** entities per chunk; entities above this are killed.
-* **Group D** (*vehicles*: boats and minecarts)
-  * Limit: **25** entities per chunk; excess vehicles are removed.
-
-:::note[Mob Cap Exemptions]
-The following entities are exempt from mob cap calculations:
-* Named mobs
-* Tamed mobs
-* Leashed mobs
-* Mounted mobs (e.g. a boat with a villager in it)
-* Mobs in breeding ("love-mode")
-:::
-
-### Other Limits
-
-We also enforce limits on other items.
-
-* Maximum of `250` [block entities](https://minecraft.wiki/w/Block_entity).
-  * Spawners can be stacked up to `50` each.
-* Maximum of `100` decorative entities (e.g., item frames, glow item frames, armor stands and paintings).
-
 ## Spawner Guidelines
 
 We use stacked spawners and stacked mobs to reduce lag. Key points players should know:
@@ -81,8 +47,7 @@ To help reduce lag, we have implemented the following redstone guidelines:
 :::note[Redstone Optimization]
 1. We use [Alternate Current](https://github.com/SpaceWalkerRS/alternate-current/blob/main/README.md)'s redstone implementation on this server, which significantly reduces redstone lag by optimizing power calculations and minimizing block and shape updates. As a side effect of these changes, the block update order of redstone dust networks is predictable and intuitive rather than locational and chaotic.
 2. We've enabled a feature that ensures hoppers no longer ignore containers inside occluding blocks (like a hopper minecart inside a sand block). This helps improve hopper performance by optimizing item insertion checks.
-3. The hopper check interval has been changed to **4** ticks, which reduces the frequency of hopper checks and can help improve performance when many hoppers are present.
-4. Lithium's sleeping block entities feature is enabled, which allows the server to skip ticking block entities that are not actively being interacted with, further improving performance.
+3. Lithium's sleeping block entities feature is enabled, which allows the server to skip ticking block entities that are not actively being interacted with, further improving performance.
 :::
 
 :::danger[Important]

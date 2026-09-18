@@ -104,13 +104,6 @@ export default defineConfig({
                                 ],
                             },
                             {
-                                label: 'Social',
-                                collapsed: true,
-                                items: [
-                                    { autogenerate: { directory: 'earth/social', collapsed: true } }
-                                ],
-                            },
-                            {
                                 label: 'Towny',
                                 collapsed: true,
                                 items: [
